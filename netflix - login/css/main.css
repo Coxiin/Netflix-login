@@ -1,0 +1,40 @@
+body{
+background-color: #181818;
+}
+
+.container {
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+}
+
+input, button{
+    height: 65px;
+    font-size: 1.2rem;
+    padding: 0 20px;
+    border-radius: 5px;
+}
+
+input {
+    background-color: #2e2e2e;
+    border: 0;
+    margin-bottom: 2px;
+}
+
+button {
+    background-color: #181818;
+    border: 1px solid #4d4d4d;
+    color: #AAA;
+    margin: 20px 0;
+}
+
+button:hover{
+    color: #4d4d4d;
+}
+
+a{
+    font-family: 'roboto', sans-serif;
+    margin: 20px auto;
+    color: #AAA;
+}
